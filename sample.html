@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="sample.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+</head>
+<body>
+  <div class="scroller">
+    <section class="orange">
+      <div class="text">This is some text inside of a div block.</div>
+    </section>
+
+    <section class="section " id="environmentMotion">
+      <div class="section-inner">
+        <div class="__motion-area">
+          <div class="__motion-area-inner">
+              <div class="__bgs">
+                <div class="container container-boxed">
+                  <div class="__bg-inner">
+                    <div class="__bg">
+                      <div class="__back __b1" style="background-image: url(https://i.picsum.photos/id/250/1980/1080.jpg?hmac=jc7jTwwya7DB7T006YdTrUn1sii2fJ-8ukudz_kT62I)"></div>
+                      <div class="__back __b2" style="background-image: url(https://i.picsum.photos/id/499/1980/1080.jpg?hmac=toHm413j9m89sVXWQWCWLEne4R9Y93YLXxlqpJnKE7U)"></div>
+                      <div class="__back __b3" style="background-image: url(https://i.picsum.photos/id/782/1980/1080.jpg?hmac=qd9xA2Z7mfoEQIK8ZANRCbu__9wvde4ZTVXwHJRUDTs)"></div>
+                      <div class="__back __b4" style="background-image: url(https://i.picsum.photos/id/1003/1980/1080.jpg?hmac=jat_8IU4MUnM_mtVfjny9Ug08o0BcWC8oVIUvXfH5Dg)"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="__title-area">
+                  <div class="container container-boxed">
+                    <div class="__title-lists">
+                      <div class="__title-list">
+                        <h2 class="__title __title1">
+                          <strong class="__txt __headline3">온실가스 저감 강화</strong>
+                        </h2>
+                      </div>
+                      <div class="__title-list">
+                        <h2 class="__title __title2">
+                          <strong class="__txt __headline3">자원사용 효율성 개선</strong>
+                        </h2>
+                      </div>
+                      <div class="__title-list">
+                        <h2 class="__title __title3">
+                          <strong class="__txt __headline3">친환경 제품 및 서비스 확대</strong>
+                        </h2>
+                      </div>
+                      <div class="__title-list">
+                        <h2 class="__title __title4">
+                          <strong class="__txt __headline4">마지막 텍스트</strong>
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="__motion __gallery">
+        </div>
+      </div>
+    </section>
+    <section class="section titleSection" id="environmentBetter1">
+      <div class="title">
+        <h1>test</h1>
+        <h3>text2222222222 <br>afasldkfjasl;fjlaskj <br>alsjflasjflasjflk</h3>
+      </div>
+    </section>
+    <!-- <section class="section" id="environmentSliding1">
+      <h1 class="header-section">Scroll down to some different pinned content shown</h1>
+
+      <div class="content-container">
+        <div class="left-content">
+          <img id="img1" class="imageToShow" src="https://placekitten.com/300/700?image=1" alt="kitty">
+          <img id="img2" class="imageToShow" src="https://placekitten.com/300/700?image=2" alt="kitty">
+        </div>
+        
+        <div class="right-content">
+          <div class="contentMarker" data-marker-content="img1">
+            <div class="text-area">
+              o not try to mix old food with new one to fool me! do i like standing on litter cuz i sits when i have spaces, my cat buddies have no litter i live in luxury cat life and throw down all the stuff in the kitchen. Find empty spot in cupboard and sleep all day i want to go outside let me go outside nevermind inside is better so i like cats because they are fat and fluffy scratch my tummy actually i hate you now fight me and lick the other cats thug cat.
+            </div>
+          </div>
+
+          <div class="contentMarker" data-marker-content="img2">
+            <div class="text-area">
+              o not try to mix old food with new one to fool me! do i like standing on litter cuz i sits when i have spaces, my cat buddies have no litter i live in luxury cat life and throw down all the stuff in the kitchen. Find empty spot in cupboard and sleep all day i want to go outside let me go outside nevermind inside is better so i like cats because they are fat and fluffy scratch my tummy actually i hate you now fight me and lick the other cats thug cat.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <div>asdfasdfasfasfsaf</div>
+
+    <section class="section slideSliding" id="environmentSliding">
+      <div class="__slide-img">
+        <div class="__inner">
+          <div class="__imgs">
+            <!-- <ul>
+              <li class="__current">asdf</li>
+              <li>2222222</li>
+              <li>444444</li>
+            </ul> -->
+            <ul>
+              <li class="__current"><img class="imageToShow" src="https://placekitten.com/300/700?image=1" alt="kitty"></li>
+              <li><img class="imageToShow" src="https://placekitten.com/300/700?image=2" alt="kitty"></li>
+              <li><img class="imageToShow" src="https://placekitten.com/300/700?image=3" alt="kitty"></li>
+            </ul>
+          </div>
+          <div class="__details">
+            <div class="__detail-block __current" data-year="2020">
+              <h4>2020</h4>
+              <dl>
+                <dt>7월</dt>
+                <dd>
+                  <ul>
+                      <li><p>국토교통부 시공능력종합평가 7년 연속 1위 달성</p></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt>5월</dt>
+                <dd>
+                    <ul>
+                        <li><p>반포주공1단지 3주구 재건축사업 수주</p></li>
+                    </ul>
+                </dd>
+              </dl>
+            </div>
+            <div class="__detail-block" data-year="2019">
+                <h4>2019</h4>
+                <dl>
+                    <dt>3월</dt>
+                    <dd>
+                        <ul>
+                            <li><p>빈폴, 30주년 ‘이제 서른’ 캠페인 진행</p></li>
+                            <li><p>‘하늘매화길’ 오픈</p></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+            <div class="__detail-block" data-year="2018">
+                <h4>2018</h4>
+                <dl>
+                    <dt>11월</dt>
+                    <dd>
+                        <ul>
+                            <li><p>ESG(Environment, Social, Governance) 평가 최우수기업 선정</p></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+          </div>
+      </div>
+      <div class="__hover-img"></div>
+    </div>
+    </section>
+
+    <section class="section titleSection"  id="environmentBetter2">
+      <div class="title">
+        <h1>test</h1>
+        <h3>text2222222222 <br>afasldkfjasl;fjlaskj <br>alsjflasjflasjflk</h3>
+      </div>
+    </section>
+
+    <section class="section slideSliding" id="environmentSliding2">
+      <div class="__slide-img">
+        <div class="__inner">
+          <div class="__imgs">
+            <!-- <ul>
+              <li class="__current">asdf</li>
+              <li>2222222</li>
+              <li>444444</li>
+            </ul> -->
+            <ul>
+              <li class="__current"><img class="imageToShow" src="https://placekitten.com/300/700?image=1" alt="kitty"></li>
+              <li><img class="imageToShow" src="https://placekitten.com/300/700?image=2" alt="kitty"></li>
+              <li><img class="imageToShow" src="https://placekitten.com/300/700?image=3" alt="kitty"></li>
+            </ul>
+          </div>
+          <div class="__details">
+            <div class="__detail-block __current" data-year="2020">
+              <h4>2020</h4>
+              <dl>
+                <dt>7월</dt>
+                <dd>
+                  <ul>
+                      <li><p>국토교통부 시공능력종합평가 7년 연속 1위 달성</p></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt>5월</dt>
+                <dd>
+                    <ul>
+                        <li><p>반포주공1단지 3주구 재건축사업 수주</p></li>
+                    </ul>
+                </dd>
+              </dl>
+            </div>
+            <div class="__detail-block" data-year="2019">
+                <h4>2019</h4>
+                <dl>
+                    <dt>3월</dt>
+                    <dd>
+                        <ul>
+                            <li><p>빈폴, 30주년 ‘이제 서른’ 캠페인 진행</p></li>
+                            <li><p>‘하늘매화길’ 오픈</p></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+            <div class="__detail-block" data-year="2018">
+                <h4>2018</h4>
+                <dl>
+                    <dt>11월</dt>
+                    <dd>
+                        <ul>
+                            <li><p>ESG(Environment, Social, Governance) 평가 최우수기업 선정</p></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+          </div>
+      </div>
+      <div class="__hover-img"></div>
+    </div>
+    </section>
+
+    <section class="section blue" id="environmentlast">
+      <div class="inner"></div>
+    </section>
+  </div>
+  <script>
+    jQuery(function($){
+      gsap.registerPlugin(ScrollTrigger);
+      var tl1 = gsap.timeline({
+        scrollTrigger: {
+          trigger: '#environmentMotion',
+          start: 'top top',
+          end: 'bottom bottom',
+          pin: '#environmentMotion .__motion-area',
+          pinSpacing: false,
+          invalidateOnRefresh: true
+        }
+      })
+      var tl2 = gsap.timeline({
+        scrollTrigger: {
+          trigger: '#environmentMotion .__motion.__gallery',
+          start: 'top bottom',
+          end: 'bottom bottom',
+          scrub: 3,
+          invalidateOnRefresh: true
+        }
+      })
+        .to('#environmentMotion .__bg', {width:function(){return '100.1vw';}, height:function(){return '100vh';}, borderRadius:0, duration:1}, 0)
+        .to('#environmentMotion .__b1', {autoAlpha:1, duration:.4}, 1)
+        .to('#environmentMotion .__b2', {autoAlpha:1, duration:.4}, 2)
+        .to('#environmentMotion .__b3', {autoAlpha:1, duration:.4}, 3)
+        .to('#environmentMotion .__b4', {autoAlpha:1, duration:.4}, 4)
+
+        
+        .to('#environmentMotion .__title1', {y:'100%', autoAlpha:0, duration:.4}, 1)
+        .to('#environmentMotion .__title1', {y:'50%', autoAlpha:1, duration:.4}, 1.5)
+        .to('#environmentMotion .__title1', {y:'0%', autoAlpha:0, duration:.4}, 2)
+        .to('#environmentMotion .__title2', {y:'100%', autoAlpha:0, duration:.4}, 2)
+        .to('#environmentMotion .__title2', {y:'50%', autoAlpha:1, duration:.4}, 2.5)
+        .to('#environmentMotion .__title2', {y:'0%', autoAlpha:0, duration:.4}, 3)
+        .to('#environmentMotion .__title3', {y:'100%', autoAlpha:0, duration:.4}, 3)
+        .to('#environmentMotion .__title3', {y:'50%', autoAlpha:1, duration:.4}, 3.5)
+        .to('#environmentMotion .__title3', {y:'0%', autoAlpha:0, duration:.4}, 4)
+        .to('#environmentMotion .__title4', {y:'100%', autoAlpha:0, duration:.4}, 4)
+        .to('#environmentMotion .__title4', {y:'50%', autoAlpha:1, duration:.4}, 4.5)
+        .to('#environmentMotion .__title4', {y:'0%', autoAlpha:0, duration:.4}, 5)
+          
+      var tl3 = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#environmentMotion .__motion.__gallery",
+          start: "bottom 60%",
+          end: "bottom 60%",
+          scrub: .5,
+          invalidateOnRefresh: true,
+        }
+      })
+        .to('#environmentMotion .__bg',
+            {borderRadius:function(){return '0.4444444444rem';}, width: function(){return '100%';}})
+
+            
+      var tl4 = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#environmentBetter1",
+          start: "top center",
+          end: "bottom center",
+          scrub: 0.5, 
+          pin: "#environmentBetter1 .title",
+          invalidateOnRefresh: true,
+        }
+      })
+        .to('#environmentBetter1 .title', {autoAlpha:1, duration:5},1)
+        .to('#environmentBetter1 .title', {autoAlpha:0, duration:2},'+=10')
+
+      var tl5 = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#environmentBetter2",
+          start: "top center",
+          end: "bottom center",
+          scrub: 0.5, 
+          pin: "#environmentBetter2 .title",
+          invalidateOnRefresh: true,
+        }
+      })
+        .to('#environmentBetter2 .title', {autoAlpha:1, duration:5},1)
+        .to('#environmentBetter2 .title', {autoAlpha:0, duration:2},'+=10')
+      
+      var tl6 = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#environmentLast .inner",
+          markers:true,
+          start: "top center",
+          end: "bottom center",
+          scrub: 0.5, 
+          invalidateOnRefresh: true,
+        }
+      })
+        .to('#environmentLast .inner', {autoAlpha:1, duration:0.1},1)
+
+      
+      $('.slideSliding .__slide-img').each(function(){
+        var el = this;
+        gsap.timeline({
+          scrollTrigger: {
+            trigger: el,
+            start: "top top",
+            end: "bottom bottom",
+            // end: function(){
+            //   var top = parseInt($('.__inner', el).css('padding-top')) * 3;
+            //   return 'bottom ' + top +'px'
+            // },
+            pin: $('.__imgs', el),
+            pinSpacing: false,
+           
+            invalidateOnRefresh: true,
+          }
+        })
+
+        $('.__detail-block', el).each(function(index){
+          var __self = this;
+          gsap.timeline({
+            scrollTrigger: {
+              trigger: __self,
+              //markers:true,
+              start: "top center",
+              end: "bottom bottom",
+              invalidateOnRefresh: true,
+              onEnter:function() {
+                gsap.to($('.__imgs li', el), {duration: .6, ease:Circ.easeInOut, autoAlpha:0});
+                gsap.to($('.__imgs ul li:nth-child(' + (index + 1) + ')', el), {duration: .6, ease:Circ.easeInOut, autoAlpha:1});
+              },
+              onEnterBack:function() {
+                gsap.to($('.__imgs li', el), {duration: .6, ease:Circ.easeInOut, autoAlpha:0});
+                gsap.to($('.__imgs ul li:nth-child(' + (index + 1) + ')', el), {duration: .6, ease:Circ.easeInOut, autoAlpha:1});
+              }
+            }
+          })
+        });
+      })
+    });
+  </script>
+</body>
+</html>
